@@ -16,3 +16,8 @@
 
 ## 2. Generate detour path for each robot 
   <img align="center" src="https://github.com/clobot-git/clober_rmf/blob/noetic-devel/images/clober_rmf.gif">
+
+
+## 3. Scheduling algorithm
+  https://app.gitbook.com/@clobot-git/s/clober-manual/rmf/algorithm
+  
