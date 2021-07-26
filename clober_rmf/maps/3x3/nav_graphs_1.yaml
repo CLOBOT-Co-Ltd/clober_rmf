@@ -101,4 +101,4 @@ levels:
       - {name: 'n7'}
     - - 7.087
       - -6.115
-      - {name: 'n8'}
+      - {name: 'n8', spawn_robot_name: clober_1, spawn_robot_type: clober}

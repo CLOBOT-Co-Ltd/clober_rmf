@@ -2,8 +2,6 @@
 
 <launch>
 
-    <arg name="use_ignition" default="0"/>
-    <arg name="gazebo_version" default="11"/>
     <arg name="use_sim_time" default="true"/>
     <arg name="failover_mode" default="false"/>
 
