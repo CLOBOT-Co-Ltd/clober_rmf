@@ -106,6 +106,6 @@ ros2 launch clober_rmf clober_rmf.launch.xml
 If you want to simulate the clober in another maps, you should make the `map images`([by using slam](https://github.com/CLOBOT-Co-Ltd/clober)), `.building.yaml` files and `nav_graph.yaml` files.
 You can download the [`rmf_traffic_editor`](https://github.com/open-rmf/rmf_traffic_editor/tree/main/rmf_traffic_editor).
 
-The method of making the `.building.yaml` files: https://osrf.github.io/ros2multirobotbook/traffic-editor.html
-The method of making the `nav_graph.yaml` files: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
+* The method of making the `.building.yaml` files: https://osrf.github.io/ros2multirobotbook/traffic-editor.html
+* The method of making the `nav_graph.yaml` files: https://osrf.github.io/ros2multirobotbook/simulation.html#building-map-generator
 
