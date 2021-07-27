@@ -46,7 +46,7 @@ Launch the clober free fleet client in ROS 1 terminal (noetic):
 ```bash
 source /opt/ros/noetic/setup.bash
 source ~/client_ws/install/setup.bash
-roslaunch clober_ff_client_ros1 clober_world_ff.launch
+roslaunch clober_ff_client_ros1 clober_3x3_ff.launch
 ```
 
 #### 5.1.2 Launch clober free fleet server
@@ -78,7 +78,7 @@ Launch the clober free fleet client in ROS 1 terminal (noetic):
 ```bash
 source /opt/ros/noetic/setup.bash
 source ~/client_ws/install/setup.bash
-roslaunch clober_ff_client_ros1 multi_clober_world_ff.launch
+roslaunch clober_ff_client_ros1 multi_clober_3x3_ff.launch
 ```
 
 #### 5.2.2 Launch clober free fleet server
