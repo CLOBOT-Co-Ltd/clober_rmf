@@ -1,0 +1,6 @@
+building:
+  filename: new.building.yaml
+name: new
+traffic_maps:
+  {}
+version: 1
