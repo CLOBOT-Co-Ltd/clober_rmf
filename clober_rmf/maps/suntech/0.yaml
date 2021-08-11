@@ -1,6 +1,6 @@
 building_name: suntech
 levels:
-  suntech:
+  L1:
     lanes:
     - - 0
       - 1
