@@ -2,7 +2,7 @@
 
 <launch>
 
-    <arg name="use_sim_time" default="true"/>
+    <arg name="use_sim_time" default="false"/>
     <arg name="failover_mode" default="false"/>
 
     <!-- Common launch -->
@@ -10,6 +10,7 @@
         <arg name="use_sim_time" value="$(var use_sim_time)"/>
         <arg name="viz_config_file" value ="$(find-pkg-share clober_rmf)/include/3x3/3x3.rviz"/>
         <arg name="config_file" value="$(find-pkg-share clober_rmf)/3x3/3x3.building.yaml"/>
+        <arg name="dashboard_config_file" value="$(find-pkg-share clober_rmf)/include/3x3/dashboard_config.json"/>
     </include>
 
     <!-- clober fleet adapter, and robot state aggregator needed for the clober slotcar_plugin -->

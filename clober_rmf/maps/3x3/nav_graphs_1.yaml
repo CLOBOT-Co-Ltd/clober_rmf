@@ -1,4 +1,4 @@
-building_name: airport_terminal
+building_name: 3x3
 levels:
   L1:
     lanes:
@@ -77,7 +77,7 @@ levels:
     vertices:
     - - 2.853
       - -2.032
-      - {name: 'n0', spawn_robot_name: clober_0, spawn_robot_type: clober}
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: clober_charger1, spawn_robot_name: clober_0, spawn_robot_type: clober}
     - - 4.985
       - -2.043
       - {name: 'n1'}
@@ -101,4 +101,4 @@ levels:
       - {name: 'n7'}
     - - 7.087
       - -6.115
-      - {name: 'n8', spawn_robot_name: clober_1, spawn_robot_type: clober}
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: clober_charger2, spawn_robot_name: clober_1, spawn_robot_type: clober}
