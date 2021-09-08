@@ -11,6 +11,7 @@
         <arg name="viz_config_file" value ="$(find-pkg-share clober_rmf)/include/3x3/3x3.rviz"/>
         <arg name="config_file" value="$(find-pkg-share clober_rmf)/3x3/3x3.building.yaml"/>
         <arg name="dashboard_config_file" value="$(find-pkg-share clober_rmf)/include/3x3/dashboard_config.json"/>
+        <arg name="conflict_config_file" value="$(find-pkg-share clober_rmf)/3x3/nav_graphs.yaml"/>
     </include>
 
     <group>

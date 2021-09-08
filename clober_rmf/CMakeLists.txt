@@ -17,6 +17,7 @@ if (ament_cmake_FOUND)
   install(
     PROGRAMS 
       scripts/test.py
+      scripts/send_negotiation_notice.py
     DESTINATION lib/${PROJECT_NAME}
   )
 
