@@ -9,11 +9,14 @@
   <arg name="dashboard_config_file" default="" description="Path to dashboard config for web rmf panel file"/>  
   <arg name="bidding_time_window" description="Time window in seconds for task bidding process" default="2.0"/>  
   <arg name="use_rmf_panel" default="true" description="launch web and api server for rmf_demos_panel"/>
+  <arg name="conflict_config_file" default=""/>
 
   <!-- Traffic Schedule  -->
   <node pkg="rmf_traffic_ros2" exec="rmf_traffic_schedule" output="both" name="rmf_traffic_schedule_primary">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
+    <param name="conf_graph_file" value="$(var conflict_config_file)"/>
   </node>
+  
   <!-- Traffic Schedule monitor and replacement node -->
   <node pkg="rmf_traffic_ros2" exec="rmf_traffic_schedule_monitor" output="both" name="rmf_traffic_schedule_backup">
     <param name="use_sim_time" value="$(var use_sim_time)"/>
