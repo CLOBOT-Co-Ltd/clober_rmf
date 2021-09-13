@@ -6,13 +6,13 @@ crowd_sim:
   enable: 0
   goal_sets: []
   model_types: []
-  obstacle_set: {class: 1, file_name: office_navmesh.nav, type: nav_mesh}
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
   states:
     - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
   transitions: []
   update_time_step: 0.1
 levels:
-  office:
+  L1:
     drawing:
       filename: suntech_office.png
     elevation: 0
@@ -152,8 +152,8 @@ levels:
       - [296.136, -95.303, 0, n17]
       - [296.446, -164.879, 0, n18]
       - [70.27200000000001, -165.573, 0, n7]
-      - [-4.104, -50.37, 0, n2]
-      - [-4.104, 62.333, 0, n1]
+      - [-4.104, -50.37, 0, n2, {is_charger: [4, true]}]
+      - [-4.104, 62.333, 0, n1, {is_charger: [4, false]}]
       - [70.76600000000001, 63.656, 0, n5]
       - [70.831, -233.489, 0, n8]
       - [297.906, -231.386, 0, n19]

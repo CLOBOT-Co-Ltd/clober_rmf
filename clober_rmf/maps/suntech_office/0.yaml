@@ -1,6 +1,6 @@
 building_name: suntech_office
 levels:
-  office:
+  L1:
     lanes:
     - - 0
       - 1
@@ -179,10 +179,10 @@ levels:
       - {name: n7}
     - - -0.20640027939747807
       - 2.5332314993301583
-      - {name: n2}
+      - {is_charger: true, name: n2}
     - - -0.20640027939747807
       - -3.1348802669792883
-      - {name: n1}
+      - {is_charger: false, name: n1}
     - - 3.5589966305657734
       - -3.2014171991534752
       - {name: n5}
