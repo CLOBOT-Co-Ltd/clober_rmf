@@ -1,50 +1,4 @@
 {
-<<<<<<< HEAD
-  "world_name" : "suntech_5x5 World",  
-  "valid_task": ["Loop"],
-  "task": {
-    "Delivery": {
-    },
-    "Loop": {
-      "places": [
-        "n1",
-        "n2",
-        "n3",
-        "n4",
-        "n5",
-        "n6",
-        "n7",
-        "n8",
-        "n9",
-        "n10",
-        "n11",
-        "n12",
-        "n13",
-        "n14",
-        "n15",
-        "n16",
-        "n17",
-        "n18",
-        "n19",
-        "n20",
-        "n21",
-        "n22",
-        "n23",
-        "n24",
-        "n25"
-      ]
-    },
-    "Clean": {
-    },
-    "Station": {
-    },
-    "Patrol": {
-    },
-    "Charging": {
-    }
-  }
-}
-=======
     "world_name" : "suntech_5x5 World",  
     "valid_task": ["Loop"],
     "task": {
@@ -89,5 +43,3 @@
       }
     }
   }
-  
->>>>>>> 18d42acb30a11648e54188b043cbce87d7a42cb8
