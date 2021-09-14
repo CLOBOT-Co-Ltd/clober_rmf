@@ -12,7 +12,7 @@ crowd_sim:
   transitions: []
   update_time_step: 0.1
 levels:
-  suntech:
+  L1:
     drawing:
       filename: suntech.png
     elevation: 0

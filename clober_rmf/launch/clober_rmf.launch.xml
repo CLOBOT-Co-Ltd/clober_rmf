@@ -1,7 +1,6 @@
 <?xml version='1.0' ?>
 
 <launch>
-
     <arg name="use_sim_time" default="false"/>
     <arg name="failover_mode" default="true"/>
 
@@ -31,5 +30,4 @@
         <arg name="failover_mode" value="$(var failover_mode)"/>
     </include>
     </group>
-
 </launch>
