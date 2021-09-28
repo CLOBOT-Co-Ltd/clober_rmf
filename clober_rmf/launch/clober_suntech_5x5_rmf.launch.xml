@@ -1,7 +1,6 @@
 <?xml version='1.0' ?>
 
 <launch>
-
     <arg name="use_sim_time" default="false"/>
     <arg name="failover_mode" default="false"/>
 
@@ -11,6 +10,7 @@
         <arg name="viz_config_file" value ="$(find-pkg-share clober_rmf)/include/suntech_5x5/suntech_5x5.rviz"/>
         <arg name="config_file" value="$(find-pkg-share clober_rmf)/suntech_5x5/suntech_5x5.building.yaml"/>
         <arg name="dashboard_config_file" value="$(find-pkg-share clober_rmf)/include/suntech_5x5/dashboard_config.json"/>
+        <arg name="conflict_config_file" value="$(find-pkg-share clober_rmf)/suntech_5x5/0.yaml"/>
     </include>
 
     <!-- clober fleet adapter, and robot state aggregator needed for the clober slotcar_plugin -->
