@@ -1,0 +1,6 @@
+building:
+  filename: 3x3.building.yaml
+name: 3x3
+traffic_maps:
+  {}
+version: 1
