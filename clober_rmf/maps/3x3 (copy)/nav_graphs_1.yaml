@@ -1,0 +1,104 @@
+building_name: 3x3
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {}
+    - - 0
+      - 3
+      - {}
+    - - 1
+      - 0
+      - {}
+    - - 1
+      - 4
+      - {}
+    - - 1
+      - 2
+      - {}
+    - - 2
+      - 1
+      - {}
+    - - 2
+      - 5
+      - {}
+    - - 3
+      - 0
+      - {}
+    - - 3
+      - 4
+      - {}
+    - - 3
+      - 6
+      - {}
+    - - 4
+      - 1
+      - {}
+    - - 4
+      - 3
+      - {}
+    - - 4
+      - 5
+      - {}
+    - - 4
+      - 7
+      - {}
+    - - 5
+      - 2
+      - {}
+    - - 5
+      - 4
+      - {}
+    - - 5
+      - 8
+      - {}
+    - - 6
+      - 3
+      - {}
+    - - 6
+      - 7
+      - {}
+    - - 7
+      - 4
+      - {}
+    - - 7
+      - 6
+      - {}
+    - - 7
+      - 8
+      - {}
+    - - 8
+      - 5
+      - {}
+    - - 8
+      - 7
+      - {}
+    vertices:
+    - - 2.853
+      - -2.032
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: clober_charger1, spawn_robot_name: clober_0, spawn_robot_type: clober}
+    - - 4.985
+      - -2.043
+      - {name: 'n1'}
+    - - 7.034
+      - -2.048
+      - {name: 'n2'}
+    - - 2.882
+      - -4.071
+      - {name: 'n3'}
+    - - 5.013
+      - -4.123
+      - {name: 'n4'}
+    - - 7.034
+      - -4.082
+      - {name: 'n5'}
+    - - 2.861
+      - -6.105
+      - {name: 'n6'}
+    - - 5.
+      - -6.094
+      - {name: 'n7'}
+    - - 7.087
+      - -6.115
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: clober_charger2, spawn_robot_name: clober_1, spawn_robot_type: clober}

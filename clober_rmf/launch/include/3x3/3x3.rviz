@@ -7,7 +7,7 @@ Panels:
         - /MarkerArray3/Topic1
         - /MarkerArray4/Topic1
       Splitter Ratio: 0.5
-    Tree Height: 303
+    Tree Height: 270
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties

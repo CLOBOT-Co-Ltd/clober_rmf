@@ -1,0 +1,32 @@
+<?xml version='1.0' ?>
+
+<launch>
+
+    <arg name="use_sim_time" default="false"/>
+    <arg name="failover_mode" default="false"/>
+
+    <!-- Common launch -->
+    <include file="$(find-pkg-share clober_rmf)/common.launch.xml">
+        <arg name="use_sim_time" value="$(var use_sim_time)"/>
+        <arg name="viz_config_file" value ="$(find-pkg-share clober_rmf)/include/3x3/3x3.rviz"/>
+        <arg name="config_file" value="$(find-pkg-share clober_rmf)/3x3/3x3.building.yaml"/>
+        <arg name="dashboard_config_file" value="$(find-pkg-share clober_rmf)/include/3x3/dashboard_config.json"/>
+    </include>
+
+    <!-- clober fleet adapter, and robot state aggregator needed for the clober slotcar_plugin -->
+    <group>
+    <let name="fleet_name" value="clober"/>
+    <include file="$(find-pkg-share clober_rmf)/include/adapters/clober_adapter.launch.xml">
+        <arg name="fleet_name" value="$(var fleet_name)"/>
+        <arg name="use_sim_time" value="$(var use_sim_time)"/>
+        <arg name="nav_graph_file" value="$(find-pkg-share clober_rmf)/3x3/nav_graphs_1.yaml" />
+    </include>
+    <include file="$(find-pkg-share rmf_fleet_adapter)/robot_state_aggregator.launch.xml">
+        <arg name="robot_prefix" value="$(var fleet_name)"/>
+        <arg name="fleet_name" value="$(var fleet_name)"/>
+        <arg name="use_sim_time" value="$(var use_sim_time)"/>
+        <arg name="failover_mode" value="$(var failover_mode)"/>
+    </include>
+    </group>
+
+</launch>
